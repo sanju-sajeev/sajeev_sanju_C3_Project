@@ -79,6 +79,7 @@ class RestaurantTest {
 
     @Test
     public void findOrderTotal_should_return_total_price_of_items_in_list() {
+
         restaurant.addToMenu("Mac and Cheese", 400);
 
         List<String> itemsInOrder = new ArrayList<>();
